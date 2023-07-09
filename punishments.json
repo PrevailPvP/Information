@@ -1,0 +1,128 @@
+{
+  "Cheating": {
+    "name": "Cheating",
+    "reason": "Cheating",
+    "description": "Using an unfair game modification to gain an advantage.",
+    "examples": [
+      "Using an unfair game modification to fly around the map.",
+      "Blatantly head-snapping onto a player."
+    ],
+    "required_rank": "Helper",
+    "offenses": {
+      "1": {
+        "type": "ban",
+        "duration": "7d"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "14d"
+      },
+      "3": {
+        "type": "ban",
+        "duration": "30d"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "perm"
+      }
+    }
+  },
+  "Bug Exploitation/Abuse": {
+    "name": "Bug Exploitation/Abuse",
+    "reason": "Bug Exploitation/Abuse",
+    "description": "Exploiting an unintended game mechanic",
+    "examples": [
+      "Using an item duplication exploit"
+    ],
+    "required_rank": "Mod",
+    "offenses": {
+      "1": {
+        "type": "ban",
+        "duration": "6h"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "12h"
+      },
+      "3": {
+        "type": "ban",
+        "duration":"1d"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "7d"
+      },
+      "5": {
+        "type": "ban",
+        "duration": "perm"
+      }
+    }
+  },
+  "Inappropriate Skin": {
+    "name": "Inappropriate Skin",
+    "reason": "Inappropriate Skin (Change and appeal)",
+    "description": "Utilizing a skin that shows explicit content",
+    "examples": [
+      "Using a Hitler skin",
+      "Using a skin that displays nudity",
+      "Using a skin that is otherwise offensive or objectionable (requires approval by Sr.Mod+)"
+    ],
+    "required_rank": "Helper",
+    "offenses": {
+      "1": {
+        "type": "perm",
+        "duration": "6h"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "12h"
+      },
+      "3": {
+        "type": "ban",
+        "duration":"1d"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "7d"
+      },
+      "5": {
+        "type": "ban",
+        "duration": "perm"
+      }
+    }
+  },
+  "Inappropriate Name": {
+    "name": "Inappropriate Name",
+    "reason": "Inappropriate Name (Change and appeal)",
+    "description": "Utilizing an inappropriate username on an account.",
+    "examples": [
+      "Having the name \"IHATEJEWS\".",
+      "Having the name \"KKKL0V4R69\"",
+      "Names that are otherwise offensive or objectionable username (requires approval by Sr.Mod+, unless blatant)"
+    ],
+    "required_rank": "Mod",
+    "offenses": {
+      "1": {
+        "type": "perm",
+        "duration": "6h"
+      },
+      "2": {
+        "type": "ban",
+        "duration": "12h"
+      },
+      "3": {
+        "type": "ban",
+        "duration":"1d"
+      },
+      "4": {
+        "type": "ban",
+        "duration": "7d"
+      },
+      "5": {
+        "type": "ban",
+        "duration": "perm"
+      }
+    }
+  }
+
+}
